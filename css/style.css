@@ -5,7 +5,8 @@
 /* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
 /* Not all elements are defined in this file, so you'll most likely want to refer to the html as well. */
 
-
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 /* basic elements */
 html {
 	margin: 0;
@@ -19,6 +20,8 @@ body {
 	padding: 0;
 	}
 p { 
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em; 
 	margin-top: 0; 
 	text-align: center;
 	}
@@ -28,9 +31,43 @@ h3 {
 	margin-bottom: 0; 
 	color: #7D775C;
 	}
-h1 {
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dancing Script', cursive;
 	font-size: 5em; 
 }	
+
+h1 { /* CSS zen garden starts here */
+	-webkit-background-clip: border-box, border-box, border-box, border-box;
+	-webkit-background-origin: padding-box, padding-box, padding-box, padding-box;
+	-webkit-background-size: auto, auto, auto, cover;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.298039) 0px 0px 100px 0px inset;
+	background-attachment: fixed, fixed, fixed, scroll;
+	background-clip: border-box, border-box, border-box, border-box;
+	background-color: rgb(45, 99, 96);
+	background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+	background-origin: padding-box, padding-box, padding-box, padding-box;
+	background-position: 0px 0px, 0px 0px, -5px -25px, 0px 50%;
+	background-repeat: repeat, repeat, repeat, no-repeat;
+	background-size: auto, auto, auto, cover;
+	border-top-color: rgba(19, 67, 71, 0.8);
+	border-top-style: solid;
+	border-top-width: 12px;
+	box-shadow: rgba(255, 255, 255, 0.298039) 0px 0px 100px 0px inset;
+	box-sizing: border-box;
+	color: rgb(50, 80, 80);
+	display: block;
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 16px;
+	height: 310px;
+	padding-bottom: 0px;
+	padding-left: 125.296875px;
+	padding-right: 125.296875px;
+	padding-top: 0px;
+	text-align: left;
+	vertical-align: middle;
+	width: 1253px;
+
+}
 a:link { 
 	font-weight: bold; 
 	color: #66FFFF;
@@ -75,7 +112,7 @@ header {
 	margin: 50px;
 	}
 .summary p {
-
+	color: pink;
 	}
 
 .preamble {
